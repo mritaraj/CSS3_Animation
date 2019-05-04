@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#f6f6f6;
+    border-top: 5px solid pink;
+    background: linear-gradient(to bottom,#f66 0%, #f6f6f6 100%) fixed;
+}
+.header{
+    text-align: center;
+    /* text-outline: 70px; */
+    margin-top: 70px;
+    font-family: 'Tangerine';
+    font-size: 58px;
+    font-weight: 900;
+}
+.wrapper{
+    display:-webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: horizontal;
+    margin-top: 60px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #f5f5f6;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 10px;
+    position: relative;
+    margin-right: 10px;
+    overflow: hidden;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; 
+   
+}
+.text-box{
+    width: 200px;
+    height: 113px;
+    border-radius: 100px;  
+    background: #000;
+    text-align: center;
+    color:white;
+    padding: 90px 0px 0px 0px;
+
+    }
+.effect1 .text-box{
+    position: absolute;
+    top:0;
+    left: 0; 
+    opacity: 0;
+    transition: opacity 700ms;
+}
+.effect1:hover .text-box{
+    opacity: 0.8;
+}
+.effect2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: margin-left 800ms;
+
+}
+.effect2:hover img{
+    margin-left: 200px;
+   
+}
+.effect3 .text-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    margin-left: -200px;
+    transition: margin-left 800ms;
+}
+ .effect3:hover .text-box{
+    margin-left: 0px;   
+}
+.effect4 .text-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    transform: scale(0);
+    transition-duration: 500ms;
+}
+.effect4:hover .text-box{
+    transform: scale(1);
+}
+.effect5 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transition-duration: 500ms;
+}
+.effect5:hover img{
+    transform: scale(0);
+}
+.effect6 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+   transition-duration: 1200ms;
+}
+.effect6:hover img{
+    box-shadow: none;
+    transform: rotate(360deg);
+}
