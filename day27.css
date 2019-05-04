@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#slide{
+    border: 1px solid #666;
+    height: 150px;
+    background: #333;
+    width: 100%;
+    display: flex;
+    color: wheat; 
+}
+#slide p{
+    padding-left: 13px;
+    /* margin-top: -50px; */
+    /* position: absolute;
+    left: 150px; */
+    
+}
+.btn{
+    position: absolute;
+    top: 170px;
+    left: 13px;
+}
+.header{
+    
+}

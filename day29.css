@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: rebeccapurple;
+}
+.container{
+    display: flex;
+    background: #333;
+    font-family: 'Nunito';
+    border: 1px solid red;
+   
+}
+.blockBorder{
+    /* border: 1px solid green; */
+   
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 15px;
+    border: 1px solid blue;
+    margin: 12px;
+}
+.blockBorder h3{
+    color:#68d207;;
+}
+.btn{
+   margin: 22px 22px 22px 50px;
+}
+#block1{
+    position: absolute;
+    border: 1px solid blue;
+    
+}
+#block1, h3, p{
+    position: relative;
+    
+}
+
